@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Corfinio Revival | Events</title>
-        <meta name="viewport" content="width=devivce-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel='stylesheet' type='text/css' media='screen' href='../assets/css/main.css'>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     </head>
     <body>
         <ul class="top-banner">
-            <li class="left">The Corfinio Revival</li>
+            <li class="left"><a href="../index.html">The Corfinio Revival</a></li>
             <li class="right"><img src="../assets/images/Corfinio-Logo.png"></li>
         </ul>
         <nav class="nav">
@@ -136,5 +136,16 @@
                 </td>
             </tr>
         </table>
+        <ul class="secondary-footer">
+            <li><a href='#'><i class="fas fa-phone"></i></a></li>
+            <li><a href="https://www.instagram.com/corfiniorevival/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href='#'><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <script>
+            if (window.matchMedia("(max-width: 849px)").matches) {
+                // If the viewport is less than or equal to 1620px wide
+                window.location.href = "sponsors-optimized.html"; // Redirect to the optimized sponsors page
+              }
+        </script>
     </body>
 </html>
